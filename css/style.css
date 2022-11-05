@@ -1,0 +1,46 @@
+/* centering the content */
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+
+}
+
+/* setting the width and min width for responsiveness */
+.conversion-container {
+  min-width: 270px;
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(25, 25, 25, 0.6);
+  border-radius: 10px;
+}
+
+.conversion-container h1 {
+  text-align: center;
+  font-size: larger;
+  color: beige;
+  margin-bottom: 20px;
+}
+
+.form-select {
+  height: 58px;
+}
+
+/* button design */
+.reset-btn {
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aqua;
+  color: rgba(25, 25, 25, 1);
+  font-weight: 600;
+  width: 100%;
+}
+
+.reset-btn:hover {
+  background-color: rgba(25, 25, 25, 1);
+  color: aqua;
+}
